@@ -13,13 +13,6 @@ This GitHub repository provides an overview of the Genome India Project focused 
 * [Association without feature selection](#Association-without-feature-selection)
 
 ### Getting started
-The GenomeIndia Project on GWAS aims to identify associations between genetic variants, i.e. Single Nucleotide Polymorphism (SNP), and traits of interest by using Indian population data.
-Download the repo
-
-```
-git clone https://github.com/GenomeIndia/iitj.git
-```
-
 ### Users guide 
 This GitHub repository provides an overview of the GenomeIndia project focused on Genome Wide Association Studies (GWAS). The proposed pipeline replaced stringent p-value threshold problem, take into account SNP-SNP interaction, and also address the problem of "Curse of dimensionality". By incorporationg machine learning in the pipeline enhances statistical power of GWAS. The pipeline comprises steps for Quality Control of GWAS data using the Plink2.0, machine learning models for feature selection, association analysis and SNP enrichment of selected SNPs. The input file for pipeline is  `.bed` `.bim` and `.fam` and output file after doing SNP enrichment is `.csv` of selected SNPs. For further validation of feature selection method, we have used linear regression model on data after qc.
 
