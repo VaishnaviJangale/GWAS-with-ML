@@ -46,12 +46,6 @@ To check most associated SNPs among all feature selection method, we have applie
 #### SNP enrichment of selected SNP 
 To check the biological importance of most associated SNP, pybiomart is used. It help to check Ensembl id, phenotype description, HGNC symbol, associated gene with phenotype of most associated SNPs.  
 
-### Association without feature selection 
-Just after QC we run linear regression and calculate p-value of every SNPs. To select significant SNPs only we have selected thresold for p-value is 5e-05. 5 significant SNPs are selected from this. To know the biological importance of significant SNPs we have used GRASP tool to check p-value of SNPs according to the literature. Highest p-value obtained is 7.1e-03.
-
-```
-python Linear_Reg.ipynb
-```
 ## Contributors
 - [Vaishnavi Jangale](https://github.com/VaishnaviJangale)
 - [Rajveer Singh Shekhawat](https://github.com/Rajveersingh27r)
