@@ -10,7 +10,7 @@ This GitHub repository provides an overview of the Genome India Project focused 
    * [Feature selection of data](#Feature-selection-of-data)
    * [Association analysis SNPs](#Association-analysis-SNPs)
    * [SNP enrichment of selected SNP](#SNP-enrichment-of-selected-SNP)
-* [Association without feature selection](#Association-without-feature-selection)
+  
 
 ### Getting started
 ### Users guide 
@@ -42,12 +42,7 @@ To check most associated SNPs among all feature selection method, we have applie
 - **Linear Regression**: A basic method to model the linear relationship between features and traits. After run linear regression model on 5037 SNP selected from Elastic-net we have calculated their p-value and to select significant SNPs, p-value threshold of 5e-03 is used. From this 252 SNPs are selected. To know the biological importance of significant SNPs we have used GRASP tool to check p-value of SNPs according to literature. It is seen that highest p-value obtained is 3.6e-80. 
 - **Random Forest**: A versatile ensemble method utilizing decision trees for complex associations. Thresholds used for this methods are: The number of trees in the forest (n_estimators) is 100, The function to measure the quality of a split (criterion) is 'squared_error', The maximum depth of the tree (max_depth) is 20. After that RFE is used to select top 100 important SNPs.
 - **Support Vector Regressor (SVR)**: A supervised learning model that identifies relationships between variables. Threshold used for diiferent parameters are:  kernel = 'sigmoid' , Regularization parameter (C) is 100, Epsilon is 0.01 which specifies epsilon-tube within which no penalty is associated in the training loss function with points predicted within a distance epsilon from the actual value, Kernel coefficient for sigmoid (gamma) is scale.  After that permutation importance score is used to select top 100 important SNPs.
+- **XGBoost** : XGBoost is a proficient machine learning method with great efficiency and predicted accuracy. It is a tree-boosting methodology,which sequentially creates an ensemble of decision trees to correct errors from previous trees, making it highly successful for a wide range of predictive modelling problems.
 
 #### SNP enrichment of selected SNP 
-To check the biological importance of most associated SNP, pybiomart is used. It help to check Ensembl id, phenotype description, HGNC symbol, associated gene with phenotype of most associated SNPs.  
-
-## Contributors
-- [Vaishnavi Jangale](https://github.com/VaishnaviJangale)
-- [Rajveer Singh Shekhawat](https://github.com/Rajveersingh27r)
-- [Pankaj Yadav](https://github.com/pankaj-iitj)
-  
+Post-GWAS analysis of top 100 SNPs identified using PennCATH-real dataset. 
