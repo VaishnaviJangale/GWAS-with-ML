@@ -26,7 +26,7 @@ bash GI_plinkscript.sh
 ```
 
 ### Machine learning model file 
-Machine learning models are employed for feature selection to identify the most relevant genetic variants for the subsequent association analysis and most associated features are then used for SNP enrichment with the help of pybiomart and some additional tools can be used like GRASP, Disgenet, ENCODE etc. Pyhton script for feature selection, association of SNPs and SNP enrichment is given below:
+Machine learning models are employed for feature selection to identify the most relevant genetic variants for the subsequent association analysis and most associated features are then used for SNP enrichment with the help of pybiomart and some additional tools can be used like GRASP, gprofiler, fumaGWAS etc. Pyhton script for feature selection, association of SNPs and SNP enrichment is given below:
 
 ```
 python GI_Final_script.ipynb
@@ -48,3 +48,22 @@ To check most associated SNPs among all feature selection method, we have applie
 
 #### SNP enrichment of selected SNP 
 Post-GWAS analysis of top 100 SNPs identified using PennCATH-real dataset. 
+
+**Imputed data with Impute5 python script**:
+```
+Imputed_data_pyscript.ipynb
+```
+**Imputed data with Beagle5.4 python script**:
+```
+Imputed_data_pyscript.ipynb
+```
+**Rare variants python script**:
+```
+Rare_variants.ipynb
+```
+**Simulated dataset python script**:
+```
+Simulated_pyscript.ipynb
+```
+
+
