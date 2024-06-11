@@ -1,6 +1,5 @@
 # GWAS-with-ML
-## GENOME INDIA PROJECT ON GWAS 
-This GitHub repository provides an overview of the Genome India Project focused on Genome Wide Association Studies (GWAS). 
+This GitHub repository provides a code of the research paper titled "Enhancing genotype-phenotype association with optimized machine learning and biological enrichment methods". 
 
 ## **Table of Contents:**
 * [Getting started](#Getting-started) 
