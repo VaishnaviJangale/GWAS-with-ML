@@ -15,7 +15,8 @@ This GitHub repository provides a code of the research paper titled "Enhancing g
 ### Users guide 
 This GitHub repository provides an overview of the GenomeIndia project focused on Genome Wide Association Studies (GWAS). The proposed pipeline replaced stringent p-value threshold problem, take into account SNP-SNP interaction, and also address the problem of "Curse of dimensionality". By incorporationg machine learning in the pipeline enhances statistical power of GWAS. The pipeline comprises steps for Quality Control of GWAS data using the Plink2.0, machine learning models for feature selection, association analysis and SNP enrichment of selected SNPs. The input file for pipeline is  `.bed` `.bim` and `.fam` and output file after doing SNP enrichment is `.csv` of selected SNPs. For further validation of feature selection method, we have used linear regression model on data after qc.
 
-**Data availability**: The PennCATH cohort study is available at [PennCATH dataset](https://pbreheny.github.io/adv-gwas-tutorial/quality_control.html)
+**Data availability**: The PennCATH cohort study is available at [PennCATH dataset](https://pbreheny.github.io/adv-gwas-tutorial/quality_control.html) and also available at **Data** folder.
+
 
 ### QC script 
 Quality Control is the most crucial step for GWAS. Here, we had performed QC using Plink2.0, a widely used tool for GWAS data preprocessing. Input data has 861,473 SNPs and 1401 samples. The QC process includes steps such as SNP call rate, Sample call rate, Minor Allele Frequency (MAF), Hardy-Weinberg equilibrium (HWE), LD pruning, Heterozygosity, and Relatedness. After quality control, samples with null phenotype values are properly excluded or removed. So finally the samples remained are 1201 and SNPs are 69,902. 
