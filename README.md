@@ -63,7 +63,10 @@ Imputed_data_pyscript.ipynb
 Rare_variants.ipynb
 ```
 **Simulated dataset python script**:
-Processed data can be downloaded from: https://iitjacin-my.sharepoint.com/:f:/g/personal/sharma_51_iitj_ac_in/Ek1cBIWb3G9Gvc99ti7OV8kBBFWud1agdYhBOhcnQI-pYA?e=wbsesD
+
+Processed data can be downloaded from: 
+
+https://iitjacin-my.sharepoint.com/:f:/g/personal/sharma_51_iitj_ac_in/Ek1cBIWb3G9Gvc99ti7OV8kBBFWud1agdYhBOhcnQI-pYA?e=wbsesD
 ```
 Simulated_pyscript.ipynb
 ```
