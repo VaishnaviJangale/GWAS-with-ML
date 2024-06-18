@@ -51,20 +51,34 @@ To check most associated SNPs among all feature selection method, we have applie
 Post-GWAS analysis of top 100 SNPs identified using PennCATH-real dataset. 
 
 **Imputed data with Impute5 python script**:
+
+Processed imputed data (Impute5) can be downloaded from: 
+
+https://iitjacin-my.sharepoint.com/:f:/g/personal/sharma_51_iitj_ac_in/EiMvKmp77eVAsZLzViyxs5sB2GVR7j5TyOIfh68PQJBm5A?e=DGtMyQ
 ```
 Imputed_data_pyscript.ipynb
 ```
 **Imputed data with Beagle5.4 python script**:
+
+Processed imputed data (Beagle5.4) can be downloaded from: 
+
+https://iitjacin-my.sharepoint.com/:f:/g/personal/sharma_51_iitj_ac_in/EkfZW7PM5SlOgtLP_NIWqOQBAqjiX0FiZNusrzCivR5pig?e=MCJ3wg
+
 ```
 Imputed_data_pyscript.ipynb
 ```
 **Rare variants python script**:
+
+Processed Rare-variants data can be downloaded from: 
+
+https://iitjacin-my.sharepoint.com/:f:/g/personal/sharma_51_iitj_ac_in/EqqZSLR8OYJGoeCHE6Rsma8BTdjq20ZviLRmpBvzlsQB7A?e=JUGWof
+
 ```
 Rare_variants.ipynb
 ```
 **Simulated dataset python script**:
 
-Processed data can be downloaded from: 
+Processed simulated data can be downloaded from: 
 
 https://iitjacin-my.sharepoint.com/:f:/g/personal/sharma_51_iitj_ac_in/Ek1cBIWb3G9Gvc99ti7OV8kBBFWud1agdYhBOhcnQI-pYA?e=wbsesD
 ```
